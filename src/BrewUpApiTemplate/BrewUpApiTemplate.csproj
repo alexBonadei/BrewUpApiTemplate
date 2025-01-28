@@ -14,8 +14,6 @@
     <Description>A project template for creating a modular RESTful WebAPI</Description>
     <Copyright>Alberto Acerbis</Copyright>
     <PackageProjectUrl>https://github.com/BrewUp/BrewUpApiTemplate</PackageProjectUrl>
-    <PackageIcon>Logo.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/BrewUp/BrewUpApiTemplate</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Modular Monolith, DDD</PackageTags>
@@ -41,17 +39,6 @@
 	<ItemGroup>
 	  <Folder Include="Models\" />
 	  <Folder Include="Validators\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include="..\..\README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
-	  <None Include="..\Logo.png">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
 	</ItemGroup>
 
 </Project>
